@@ -1,0 +1,141 @@
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b3bcff;
+    padding: 10px 10px;
+}
+
+/* Style the logo */
+.logo img {
+    /* height: 40px; Adjust as needed */
+    /* background-image: linear-gradient(to top #b3acff ,#b3bcff); */
+
+}
+.search-icon{
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    bottom: 10px;
+    /* left: 100px; */
+    position: relative;
+    transform: rotate(-45deg);
+    border-radius: 100%;
+
+}
+.search-icon::before{
+    content: '';
+    position: absolute;
+    border: 2px solid black;
+    height: 20px;
+    left: 0;
+    right: 0;
+    width: 0;
+    top: 100%;
+    margin: auto;
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+#border{
+    border-right: 1px solid black;
+    padding: 10px;
+}
+.ef{
+    background-color: #b3bcff;
+    margin-top: 30px;
+    height: 80px;
+
+}
+.bit{
+    padding: 20px;
+}
+button{
+    margin-left: 950px;
+    padding: 10px;
+    color:  #333;
+    background-image: linear-gradient(45deg, #b3bcff, #b3acff);
+
+}
+button:hover{
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, #b3acff, #b3bcff);
+}
+.ee{
+    background-color: #b3acff;
+    height: 90px;
+}
+.dd{
+    width: 100px;
+    height: 50px;
+    margin-left: 1200px;
+}
+.am{
+    margin-left: 500px;
+    /* padding: 2px; */
+    margin-top: 0;
+}
+.dl{
+    margin-left: 500px;
+    margin-top: 0;
+    width: 300px;
+    height: 70px; 
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.bb{
+    margin-left: 500px;
+}
+img{
+    /* background-image: linear-gradient(45deg, #b3acff, #b3bcff); */
+}
+.vv{
+    margin-left: 550px;
+}
+.nn{
+    margin-left: 550px;
+}
+.sj{
+    margin-left: 400px;
+}
+.kk{
+    margin-left: 400px;
+}
+.dn{
+    margin-left: 650px;
+}
+input{
+    height: 25px;
+}
+.nmo{
+    text-align: center;
+    font-size: 100px;
+    background-image: linear-gradient(to top, #b3acff, #fff);
+}
+.sd{
+    text-align: center;
+    background-image: linear-gradient(to top, #b3acff, #fff);
+    font-size: large;
+}
+
+
